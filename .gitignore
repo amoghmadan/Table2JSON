@@ -1,0 +1,7 @@
+.idea
+.vscode
+venv
+build
+dist
+*.py[cdo]
+**Table2JSON.spec
