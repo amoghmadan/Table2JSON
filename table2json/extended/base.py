@@ -63,7 +63,11 @@ class Table2JSONBaseCommand(BaseCommand):
         records = df.to_json(orient="records")
         with open(options["outfile"], mode="w", encoding=options["encoding"]) as fp:
             json.dump(
-                records, fp, ensure_ascii=False, indent=options["indent"], default=str
+                json.loads(records),
+                fp,
+                ensure_ascii=False,
+                indent=options["indent"],
+                default=str,
             )
 
     def handle(self, *args, **options):
