@@ -1,7 +1,17 @@
 # Table2JSON
 Convert Tabular Data to JSON
 
-**Python 3.7 <= 3.X <= 3.9**
+**Python 3.7 <= 3.X < 3.11**
+
+**Setup CSV and SQLite (Basic Installation)**
+```bash
+pip install table2json  # Setup CSV and SQLite by Default
+```
+
+**Setup (All Installation)**
+```bash
+pip install table2json[all]  # Setup All
+```
 
 ## Debian [Ubuntu, Mint and Others]
 ```bash
