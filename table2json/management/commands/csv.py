@@ -1,6 +1,6 @@
 from pandas import read_csv
 
-from table2json.extended.base import Table2JSONBaseCommand
+from table2json.management import Table2JSONBaseCommand
 
 
 class Command(Table2JSONBaseCommand):

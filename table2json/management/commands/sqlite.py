@@ -2,7 +2,7 @@ from sqlite3 import connect
 
 from pandas import read_sql_query
 
-from table2json.extended.base import Table2JSONBaseCommand
+from table2json.management import Table2JSONBaseCommand
 
 
 class Command(Table2JSONBaseCommand):
