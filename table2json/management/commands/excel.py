@@ -2,7 +2,7 @@ import sys
 
 from pandas import read_excel
 
-from table2json.extended.base import Table2JSONBaseCommand
+from table2json.management import Table2JSONBaseCommand
 
 
 class Command(Table2JSONBaseCommand):

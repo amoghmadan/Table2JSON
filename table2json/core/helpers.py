@@ -3,7 +3,8 @@ import functools
 import pkgutil
 from importlib import import_module
 
-from table2json.core.base import BaseCommand, CommandError
+from table2json.core.base import BaseCommand
+from table2json.core.exceptions import CommandError
 from table2json.utils.getter import get_package_path
 
 _AppendConstAction = getattr(argparse, "_AppendConstAction")
